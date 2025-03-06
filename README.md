@@ -1,4 +1,4 @@
-# Bracket Bucks
+# Bracket Bucks (Private Repository)
 
 A web application for anonymous buck voting competition with delayed email capture.
 
@@ -23,24 +23,26 @@ Bracket Bucks is a platform where users can vote on buck matchups anonymously, w
 
 ## Setup
 
-1. Clone the repository:
+1. Request access to this private repository from the repository owner.
+
+2. Once access is granted, clone the repository:
    ```bash
    git clone https://github.com/boonecrockett/bracket_bucks.git
    cd bracket_bucks
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Create a `config.js` file with your Supabase credentials:
+4. Create a `config.js` file with your Supabase credentials:
    ```javascript
    export const SUPABASE_URL = 'your-url';
    export const SUPABASE_KEY = 'your-key';
    ```
 
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm start
    ```
